@@ -1,0 +1,22 @@
+{
+  "name": "mocha-report",
+  "description": "Run mocha reporters standalone",
+  "keywords": [],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/mocha-report.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter ${REPORTER:-spec}"
+  },
+  "dependencies": {
+    "JSONStream": "^0.8.3",
+    "minimist": "^0.1.0",
+    "mocha": "^1.20.1"
+  },
+  "devDependencies": {
+    "stream-reduce": "^1.0.3"
+  }
+}
