@@ -1,7 +1,7 @@
 {
   "name": "mocha-report",
   "description": "Run mocha reporters standalone",
-  "keywords": [],
+  "keywords": ["mocha", "reporter"],
   "version": "0.0.1",
   "repository": {
     "type": "git",
